@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+      
+    <ion-nav-bar class="bar-dark">
+        <ion-nav-buttons side="left">
+        <a class="button button-clear ion-home" href="#/tab/home"></a>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="secondary">
+        <a class="button button-clear ion-ios-information-outline" ui-sref="tab.info"></a>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-nav-view>
+    </ion-nav-view>
+    
+      <a class="spreaker-player" href="https://www.spreaker.com/show/lacafetera_1" data-resource="show_id=1060718" data-theme="light" data-autoplay="false" data-playlist="show" data-cover="https://d1bm3dmew779uf.cloudfront.net/cover/cbf298296c13b7a140a62b5534e8fd19.jpg" data-width="100%" data-height="80px">Escucha"LaCafetera" en Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
+  
+  </body>
+</html>

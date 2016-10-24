@@ -1,0 +1,15 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/platforms/ios/www/service-worker.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-console/tests/tests.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-console/www/console-via-logger.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-console/www/logger.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-device/src/blackberry10/index.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-device/src/firefoxos/DeviceProxy.js",
+        "/Users/Edu/Desktop/LaCafetera_App/App_Fer/plugins/cordova-plugin-device/src/tizen/DeviceProxy.js"
+    ]
+}
